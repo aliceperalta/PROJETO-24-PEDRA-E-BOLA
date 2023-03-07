@@ -29,17 +29,17 @@ function setup() {
   
   var ball_options = {
       /*ESCOLHA UM DOS CÓDIGOS DE RESTITUTION/ELASTICIDADE E RETIRE O "//" DELE. A BOLA PRECISA TER UM VALOR MAIOR QUE DA PEDRA */
-     restitution: 0.2,
+     //restitution: 0.2,
     // restitution: 1,
     // restitution: -0.8,
-    // restitution: 0.75,
+     restitution: 0.75,
   }
 
   var rock_options = {
        /*ESCOLHA UM DOS CÓDIGOS DE RESTITUTION/ELASTICIDADE E RETIRE O "//" DELE. A PEDRA PRECISA TER UM VALOR MENOR QUE DA BOLA */
-    // restitution: 0.2,
+     restitution: 0.2,
     // restitution: 1,
-     restitution: -0.8,
+    // restitution: -0.8,
     // restitution: 0.75,
 
   }
