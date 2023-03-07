@@ -83,11 +83,11 @@ function vForce()
 {
   /*ESCOLHA UM DOS CÓDIGOS DE MATTER PARA QUE A BOLA VÁ PARA CIMA E RETIRE O "//" DELE */
 
-  // Matter.Body.applyForce(ball,{x:0,y:0},{x:0,y:-0.05});
+   Matter.Body.applyForce(ball,{x:0,y:0},{x:0,y:-0.05});
 
   // Matter.Body.applyForce(ball,{x:0,y:0},{x:0,y:0});
 
   // Matter.Body.applyForce(ball,{x:0,y:0},{x:0.5,y:0});
 
-   Matter.Body.applyForce(ball,{x:0,y:0},{x:0,y:0.05});
+  // Matter.Body.applyForce(ball,{x:0,y:0},{x:0,y:0.05});
 } 
